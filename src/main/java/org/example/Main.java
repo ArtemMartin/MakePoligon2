@@ -12,7 +12,7 @@ import org.apache.commons.io.FileUtils;
 
 public class Main {
     public static void main(String[] args) {
-        Color color = new Color(144, 84, 157, 255);
+        Color color = new Color(216, 157, 27, 140);
         System.out.println("ver 1.1");
 
         MyConnector myConnector = new MyConnector("192.168.1.120");
@@ -27,8 +27,8 @@ public class Main {
 
         for (OP op : listOP) {
             pointMaker.setOp(op);
-            new MyPoligon("D:\\YO_NA\\MakePoligon2\\GSADn\\", op.getName(), "90549DFF"
-                    , "90549DFF", pointMaker.getListOPPoint());
+            new MyPoligon("D:\\YO_NA\\MakePoligon2\\GSADn\\", op.getName(), "BF10DA8B"
+                    , "BF10DA8B", pointMaker.getListOPPoint());
         }
         System.out.println("ГСАДн отработано...");
 
@@ -53,8 +53,8 @@ public class Main {
 
         for (OP op : listOP3) {
             pointMaker3.setOp(op);
-            new MyPoligon("D:\\YO_NA\\MakePoligon2\\READn\\", op.getName(), "A90DA1FF"
-                    , "A90DA1FF", pointMaker3.getListOPPoint());
+            new MyPoligon("D:\\YO_NA\\MakePoligon2\\READn\\", op.getName(), "D89D1B8C"
+                    , "D89D1B8C", pointMaker3.getListOPPoint());
         }
         System.out.println("РЕАДн отработано...");
         System.out.println("Генерация секторов успешно!!!");
