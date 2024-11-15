@@ -58,7 +58,7 @@ public class PoligonPointMaker {
         int dalTopo = getDalTopo();
         List<Double> listPromXY;
 
-        for (int i = 0; i < 12; i++) {
+        for (int i = 0; i < 13; i++) {
             listPromXY = PGZ(x, y, nachaloSectora, dalTopo);
             listPoint.add(getBLPoint(listPromXY.get(0), listPromXY.get(1)));
             nachaloSectora += doliaSectora;
