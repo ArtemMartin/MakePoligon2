@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <Placemark>
+<name>Desna1</name>
+<description></description>
+      <Style>
+        <LineStyle>
+<color>C31AEAFF</color>
+ <width>10</width>
+ <strokeOpacity>0.99</strokeOpacity>
+        </LineStyle>
+        <PolyStyle>
+<color>C31AEAFF</color>
+<fill>1</fill>
+ <fillOpacity>0.9</fillOpacity>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <outerBoundaryIs>
+          <LinearRing>
+<coordinates>37.52236876302246,48.09672751449361 37.412986745319536,47.98154499290252 37.40069331256041,47.98723779631626 37.38904928148476,47.993517827134255 37.37811704351812,48.00035153840434 37.36795525801579,48.0077024141729 37.358618538550935,48.015531161610554 37.3501571589778,48.02379591802822 37.34261678085526,48.032452471756365 37.33603820374275,48.04145449578569 37.33045713979734,48.05075379299525 37.32590401400936,48.060300551728325 37.322403791311814,48.0700436104141 37.52236876302246,48.09672751449361 </coordinates>
+ </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

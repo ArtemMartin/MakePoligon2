@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <Placemark>
+<name>Elan1</name>
+<description></description>
+      <Style>
+        <LineStyle>
+<color>BF340CFF</color>
+ <width>10</width>
+ <strokeOpacity>0.99</strokeOpacity>
+        </LineStyle>
+        <PolyStyle>
+<color>BF340CFF</color>
+<fill>1</fill>
+ <fillOpacity>0.9</fillOpacity>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <outerBoundaryIs>
+          <LinearRing>
+<coordinates>37.60277942139397,48.00864924503852 37.25056201972082,47.97938514905727 37.24827324723033,47.99594950866942 37.24771001885717,48.01257806062086 37.24887673993581,48.02918982956454 37.251769389282096,48.04570385234397 37.25637550633294,48.06203957288483 37.26267421985974,48.078117236456265 37.27063631874757,48.093858281354045 37.280224365112026,48.10918572604334 37.29139284979141,48.124024549795315 37.3040883900054,48.138302064859495 37.31824996871337,48.15194827823191 37.60277942139397,48.00864924503852 </coordinates>
+ </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

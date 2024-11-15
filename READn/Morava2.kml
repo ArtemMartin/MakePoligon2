@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <Placemark>
+<name>Morava2</name>
+<description></description>
+      <Style>
+        <LineStyle>
+<color>A90DA1FF</color>
+ <width>10</width>
+ <strokeOpacity>0.99</strokeOpacity>
+        </LineStyle>
+        <PolyStyle>
+<color>A90DA1FF</color>
+<fill>1</fill>
+ <fillOpacity>0.9</fillOpacity>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <outerBoundaryIs>
+          <LinearRing>
+<coordinates>37.58014036566549,47.957475151757585 37.311841848647745,47.9923488376021 37.3148767271176,48.001729522715 37.318640453188785,48.010989575917584 37.323123074650795,48.02010355569963 37.328312645690396,48.029046409758614 37.33419525583991,48.03779354443805 37.34075506459958,48.046320893025 37.34797434167905,48.05460498271046 37.355833512784216,48.06262300001823 37.36431121085673,48.07035285451096 37.3733843326537,48.077773240586 37.38302810053675,48.08486369717808 37.58014036566549,47.957475151757585 </coordinates>
+ </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

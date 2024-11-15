@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <Placemark>
+<name>Samara2</name>
+<description></description>
+      <Style>
+        <LineStyle>
+<color>C31AEAFF</color>
+ <width>10</width>
+ <strokeOpacity>0.99</strokeOpacity>
+        </LineStyle>
+        <PolyStyle>
+<color>C31AEAFF</color>
+<fill>1</fill>
+ <fillOpacity>0.9</fillOpacity>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <outerBoundaryIs>
+          <LinearRing>
+<coordinates>37.53353697743422,48.03490673752794 37.335171120361935,48.00404557434204 37.33186027901306,48.01576514298469 37.33008248029152,48.02763151103046 37.32985229759774,48.03955444068672 37.331172551697506,48.051443208521185 37.33403425679743,48.063207295294106 37.33841665657832,48.07475707593323 37.34428735090043,48.08600450437515 37.35160251317848,48.09686378798401 37.36030719767727,48.10725204628862 37.37033573521011,48.11708994885233 37.38161221493671,48.12630232720794 37.53353697743422,48.03490673752794 </coordinates>
+ </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

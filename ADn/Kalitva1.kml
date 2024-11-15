@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <Placemark>
+<name>Kalitva1</name>
+<description></description>
+      <Style>
+        <LineStyle>
+<color>BF340CFF</color>
+ <width>10</width>
+ <strokeOpacity>0.99</strokeOpacity>
+        </LineStyle>
+        <PolyStyle>
+<color>BF340CFF</color>
+<fill>1</fill>
+ <fillOpacity>0.9</fillOpacity>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <outerBoundaryIs>
+          <LinearRing>
+<coordinates>37.54152623643326,48.03309172878238 37.357177819926925,47.97524306125264 37.351575449928895,47.9840181180566 37.34689580450902,47.99303270235644 37.34316210397445,48.00224300132268 37.340393004740676,48.011604230232656 37.33860249946023,48.0210708489423 37.337799839157974,48.03059678242493 37.337989477937185,48.040135644329425 37.33917104072302,48.04964096248795 37.34133931440451,48.059066405285414 37.34448426262646,48.0683660077901 37.348591064366865,48.077494396537105 37.54152623643326,48.03309172878238 </coordinates>
+ </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

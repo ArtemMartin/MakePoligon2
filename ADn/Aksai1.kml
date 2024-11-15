@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <Placemark>
+<name>Aksai1</name>
+<description></description>
+      <Style>
+        <LineStyle>
+<color>BF340CFF</color>
+ <width>10</width>
+ <strokeOpacity>0.99</strokeOpacity>
+        </LineStyle>
+        <PolyStyle>
+<color>BF340CFF</color>
+<fill>1</fill>
+ <fillOpacity>0.9</fillOpacity>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <outerBoundaryIs>
+          <LinearRing>
+<coordinates>37.52734601424069,48.09543603807388 37.38613547051586,47.99705858967995 37.37503718874925,48.004800023527864 37.36487299472875,48.01309988395709 37.35570568903327,48.02190722911966 37.34759204418821,48.03116797966032 37.34058244863928,48.04082524671377 37.33472058733511,48.05081967755693 37.33004316109099,48.06108981690998 37.32657964672909,48.07157248177325 37.32435209979722,48.082203147590214 37.32337500145439,48.09291634344093 37.323655150881315,48.103646053896725 37.52734601424069,48.09543603807388 </coordinates>
+ </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
