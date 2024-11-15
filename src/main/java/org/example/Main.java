@@ -12,7 +12,7 @@ import org.apache.commons.io.FileUtils;
 
 public class Main {
     public static void main(String[] args) {
-        Color color = new Color(195, 26, 234, 255);
+        Color color = new Color(144, 84, 157, 255);
         System.out.println("ver 1.1");
 
         MyConnector myConnector = new MyConnector("192.168.1.120");
@@ -27,10 +27,10 @@ public class Main {
 
         for (OP op : listOP) {
             pointMaker.setOp(op);
-            new MyPoligon("D:\\YO_NA\\MakePoligon2\\GSADn\\", op.getName(), "C31AEAFF"
-                    , "C31AEAFF", pointMaker.getListOPPoint());
+            new MyPoligon("D:\\YO_NA\\MakePoligon2\\GSADn\\", op.getName(), "90549DFF"
+                    , "90549DFF", pointMaker.getListOPPoint());
         }
-        System.out.println("ГСАДн оработано...");
+        System.out.println("ГСАДн отработано...");
 
         //АДн
         List<OP> listOP2 = myConnector.getDataDatabaseOP("don");
@@ -43,7 +43,7 @@ public class Main {
             new MyPoligon("D:\\YO_NA\\MakePoligon2\\ADn\\", op.getName(), "BF340CFF"
                     , "BF340CFF", pointMaker2.getListOPPoint());
         }
-        System.out.println("АДн оработано...");
+        System.out.println("АДн отработано...");
 
         //РЕАДн
         List<OP> listOP3 = myConnector.getDataDatabaseOP("dynai");
@@ -56,7 +56,7 @@ public class Main {
             new MyPoligon("D:\\YO_NA\\MakePoligon2\\READn\\", op.getName(), "A90DA1FF"
                     , "A90DA1FF", pointMaker3.getListOPPoint());
         }
-        System.out.println("РЕАДн оработано...");
+        System.out.println("РЕАДн отработано...");
         System.out.println("Генерация секторов успешно!!!");
         pausa();
     }
