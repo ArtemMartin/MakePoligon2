@@ -104,6 +104,8 @@ public class PoligonPointMaker {
                 case "56Y" -> 12800;
                 case "D" -> 20400;
                 case "Y" -> 15000;
+                case "Dalnoboi" -> 7200;
+                case "Shestoi" -> 5900;
                 default -> 12800;
             };
         } catch (NullPointerException e) {

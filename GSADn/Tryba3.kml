@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <Placemark>
+<name>Tryba3</name>
+<description></description>
+      <Style>
+        <LineStyle>
+<color>BF10DA8B</color>
+ <width>10</width>
+ <strokeOpacity>0.99</strokeOpacity>
+        </LineStyle>
+        <PolyStyle>
+<color>BF10DA8B</color>
+<fill>1</fill>
+ <fillOpacity>0.9</fillOpacity>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <outerBoundaryIs>
+          <LinearRing>
+<coordinates>37.28698867716407,47.90172054236381 37.20874126690805,47.89509656939119 37.208321814459495,47.897860355263305 37.20811792635469,47.900634785588025 37.20813019586155,47.90341225718597 37.208358624022814,47.906185157456676 37.20880261927335,47.908945885240854 37.209460998682864,47.91168687166338 37.21033199082481,47.91440060089952 37.21141324026788,47.91707963080747 37.212701813681456,47.91971661337015 37.21419420754247,47.922304314889956 37.21588635742611,47.92483563588019 37.21777364885821,47.92730363059843 37.28698867716407,47.90172054236381 </coordinates>
+ </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

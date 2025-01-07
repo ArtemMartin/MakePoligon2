@@ -8,17 +8,16 @@ import java.nio.file.attribute.BasicFileAttributes;
 import java.util.List;
 import java.util.logging.Logger;
 
-import org.apache.commons.io.FileUtils;
 
 public class Main {
     public static void main(String[] args) {
         Color color = new Color(216, 157, 27, 140);
         System.out.println("ver 1.1");
 
-        MyConnector myConnector = new MyConnector("192.168.1.120");
+        MyConnector myConnector = new MyConnector("127.0.0.1");
         System.out.println("Connect done...");
         //ГСАДн
-        List<OP> listOP = myConnector.getDataDatabaseOP("dnepr");
+        List<OP> listOP = myConnector.getDataDatabaseOP("minometu");
         System.out.println("Список ОП с БД прочтен...");
 
         PoligonPointMaker pointMaker = new PoligonPointMaker();
@@ -33,7 +32,7 @@ public class Main {
         System.out.println("ГСАДн отработано...");
 
         //АДн
-        List<OP> listOP2 = myConnector.getDataDatabaseOP("don");
+        List<OP> listOP2 = myConnector.getDataDatabaseOP("angara");
         PoligonPointMaker pointMaker2 = new PoligonPointMaker();
 
         cleanDirectory("D:\\YO_NA\\MakePoligon2\\ADn\\");
@@ -46,7 +45,7 @@ public class Main {
         System.out.println("АДн отработано...");
 
         //РЕАДн
-        List<OP> listOP3 = myConnector.getDataDatabaseOP("dynai");
+        List<OP> listOP3 = myConnector.getDataDatabaseOP("baikal");
         PoligonPointMaker pointMaker3 = new PoligonPointMaker();
 
         cleanDirectory("D:\\YO_NA\\MakePoligon2\\READn");

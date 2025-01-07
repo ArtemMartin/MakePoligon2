@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <Placemark>
+<name>Dnepr2</name>
+<description></description>
+      <Style>
+        <LineStyle>
+<color>D89D1B8C</color>
+ <width>10</width>
+ <strokeOpacity>0.99</strokeOpacity>
+        </LineStyle>
+        <PolyStyle>
+<color>D89D1B8C</color>
+<fill>1</fill>
+ <fillOpacity>0.9</fillOpacity>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <outerBoundaryIs>
+          <LinearRing>
+<coordinates>37.39125565266418,47.874928918567925 37.11949558725774,47.890383395617384 37.12168542996989,47.90309827789151 37.125190545939745,47.91567723736224 37.129994782436036,47.9280588927216 37.13607560272165,47.94018278600948 37.143404178722,47.95198967973965 37.151945515700646,47.96342184877996 37.1616586086529,47.97442336550308 37.172496629942735,47.98494037674372 37.18440714751848,47.99492137112668 37.1973323728514,48.00431743536674 37.21120943754907,48.01308249818715 37.22597069740433,48.02117356055767 37.39125565266418,47.874928918567925 </coordinates>
+ </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

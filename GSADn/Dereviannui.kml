@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <Placemark>
+<name>Dereviannui</name>
+<description></description>
+      <Style>
+        <LineStyle>
+<color>BF10DA8B</color>
+ <width>10</width>
+ <strokeOpacity>0.99</strokeOpacity>
+        </LineStyle>
+        <PolyStyle>
+<color>BF10DA8B</color>
+<fill>1</fill>
+ <fillOpacity>0.9</fillOpacity>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <outerBoundaryIs>
+          <LinearRing>
+<coordinates>37.257224863986266,47.910265909780954 37.18162878957969,47.92560713237868 37.18291603633208,47.92824440019523 37.18440716354757,47.93083243524484 37.186098110310134,47.93336413713504 37.18798426548193,47.93583255908668 37.19006048008162,47.938230927057155 37.192321081167215,47.940552658398175 37.19475988718821,47.94279137999572 37.19737022476704,47.94494094584149 37.200144946865706,47.94699545398648 37.20307645228914,47.94894926282924 37.20615670647297,47.95079700669247 37.20937726349898,47.95253361064465 37.257224863986266,47.910265909780954 </coordinates>
+ </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

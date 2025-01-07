@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <Placemark>
+<name>Pashot</name>
+<description></description>
+      <Style>
+        <LineStyle>
+<color>BF10DA8B</color>
+ <width>10</width>
+ <strokeOpacity>0.99</strokeOpacity>
+        </LineStyle>
+        <PolyStyle>
+<color>BF10DA8B</color>
+<fill>1</fill>
+ <fillOpacity>0.9</fillOpacity>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <outerBoundaryIs>
+          <LinearRing>
+<coordinates>37.29862993452941,47.8901211076809 37.223074660487434,47.90548731295353 37.22436355971724,47.90812418550059 37.225856223216745,47.91071175775346 37.22754858579595,47.91324293057835 37.2294360323721,47.915710758638106 37.231513410359476,47.91810846951178 37.23377504356285,47.92042948234784 37.236214747539236,47.922667425999386 37.23882584638798,47.92481615659008 37.24160119092499,47.92686977446212 37.24453317819262,47.92882264045788 37.247613772252905,47.93066939149007 37.25083452620737,47.93240495535605 37.29862993452941,47.8901211076809 </coordinates>
+ </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

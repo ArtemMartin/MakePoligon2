@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <Placemark>
+<name>Kabak</name>
+<description></description>
+      <Style>
+        <LineStyle>
+<color>BF10DA8B</color>
+ <width>10</width>
+ <strokeOpacity>0.99</strokeOpacity>
+        </LineStyle>
+        <PolyStyle>
+<color>BF10DA8B</color>
+<fill>1</fill>
+ <fillOpacity>0.9</fillOpacity>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <outerBoundaryIs>
+          <LinearRing>
+<coordinates>37.26033553859952,47.90685463773504 37.18474531082899,47.92219776834015 37.18603263763165,47.92483500687422 37.18752382864408,47.92742300747913 37.189214822767966,47.92995466985654 37.191101008728396,47.93242304733545 37.19317723745264,47.93482136599519 37.19543783595333,47.93714304332287 37.19787662268079,47.93938170635291 37.200486924304535,47.9415312092381 37.20326159387986,47.94358565020281 37.20619303035101,47.94553938783055 37.20927319933861,47.947387056640316 37.21249365515463,47.949123581907536 37.26033553859952,47.90685463773504 </coordinates>
+ </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
