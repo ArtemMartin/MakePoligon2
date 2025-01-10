@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <Placemark>
+<name>Maiami1</name>
+<description></description>
+      <Style>
+        <LineStyle>
+<color>BF340CFF</color>
+ <width>10</width>
+ <strokeOpacity>0.99</strokeOpacity>
+        </LineStyle>
+        <PolyStyle>
+<color>BF340CFF</color>
+<fill>1</fill>
+ <fillOpacity>0.9</fillOpacity>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <outerBoundaryIs>
+          <LinearRing>
+<coordinates>37.35329090546434,47.8780969498442 37.15361386279163,47.90348221168896 37.15671635154387,47.91279097593362 37.160778377240945,47.92193143220756 37.165780612871316,47.9308589553149 37.17169910623946,47.939529936537994 37.17850538840501,47.9479019983075 37.18616660514431,47.955934203246976 37.194645670940396,47.96358725652296 37.203901444875186,47.97082370045865 37.213888927665494,47.97760810040112 37.22455947895493,47.983907220870165 37.23586105384547,47.98969019106101 37.24773845752935,47.99492865882376 37.35329090546434,47.8780969498442 </coordinates>
+ </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

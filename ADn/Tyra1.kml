@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <Placemark>
+<name>Tyra1</name>
+<description></description>
+      <Style>
+        <LineStyle>
+<color>BF340CFF</color>
+ <width>10</width>
+ <strokeOpacity>0.99</strokeOpacity>
+        </LineStyle>
+        <PolyStyle>
+<color>BF340CFF</color>
+<fill>1</fill>
+ <fillOpacity>0.9</fillOpacity>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <outerBoundaryIs>
+          <LinearRing>
+<coordinates>37.36043083636621,47.88188676560143 37.15731021262457,47.878805192859396 37.15746681430016,47.88834427438057 37.15861252129299,47.897852753730895 37.16074229130042,47.90728428438633 37.163846272299175,47.91659286976963 37.16790984028948,47.925733088220206 37.172913660765175,47.93466031563588 37.17883377380351,47.94333094467687 37.185641702541936,47.95170259943076 37.19330458467884,47.959734344449714 37.20178532650399,47.967386887092495 37.21104277883205,47.97462277212839 37.221031934080926,47.981406567593346 37.36043083636621,47.88188676560143 </coordinates>
+ </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

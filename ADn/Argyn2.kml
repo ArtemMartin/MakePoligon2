@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <Placemark>
+<name>Argyn2</name>
+<description></description>
+      <Style>
+        <LineStyle>
+<color>BF340CFF</color>
+ <width>10</width>
+ <strokeOpacity>0.99</strokeOpacity>
+        </LineStyle>
+        <PolyStyle>
+<color>BF340CFF</color>
+<fill>1</fill>
+ <fillOpacity>0.9</fillOpacity>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <outerBoundaryIs>
+          <LinearRing>
+<coordinates>37.31464382237627,47.88992989413969 37.11209033970774,47.90106701131263 37.11372083071059,47.91054332539087 37.11633128160119,47.91992002946446 37.11990948746177,47.92915138224579 37.124438497994106,47.93819232711293 37.129896690622516,47.946998713194176 37.13625786712128,47.955527512473004 37.14349137346984,47.96373703181728 37.15156224250876,47.97158711885413 37.160431358836966,47.97903936063405 37.17005564525913,47.98605727405713 37.18038826996062,47.992606487069395 37.191378873458234,47.99865490967838 37.31464382237627,47.88992989413969 </coordinates>
+ </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
