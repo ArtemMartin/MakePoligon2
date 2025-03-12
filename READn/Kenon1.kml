@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <Placemark>
+<name>Kenon1</name>
+<description></description>
+      <Style>
+        <LineStyle>
+<color>D89D1B8C</color>
+ <width>10</width>
+ <strokeOpacity>0.99</strokeOpacity>
+        </LineStyle>
+        <PolyStyle>
+<color>D89D1B8C</color>
+<fill>1</fill>
+ <fillOpacity>0.9</fillOpacity>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <outerBoundaryIs>
+          <LinearRing>
+<coordinates>37.41326335705691,47.97351416218868 37.16641979611899,47.89520878566505 37.158869215064314,47.90696220552599 37.152553144194655,47.9190407262645 37.1475031059198,47.93138571695256 37.14374453578299,47.94393721225325 37.14129664257341,47.956634201027484 37.14017229745769,47.969414920795316 37.14037795299887,47.98221715667458 37.14191359280737,47.99497854338343 37.14477271243442,48.007636868860345 37.14894233197464,48.02013037803207 37.15440304069056,48.03239807523987 37.161129073809526,48.04438002382507 37.41326335705691,47.97351416218868 </coordinates>
+ </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

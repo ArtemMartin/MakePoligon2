@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <Placemark>
+<name>Shmel1</name>
+<description></description>
+      <Style>
+        <LineStyle>
+<color>BF10DA8B</color>
+ <width>10</width>
+ <strokeOpacity>0.99</strokeOpacity>
+        </LineStyle>
+        <PolyStyle>
+<color>BF10DA8B</color>
+<fill>1</fill>
+ <fillOpacity>0.9</fillOpacity>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <outerBoundaryIs>
+          <LinearRing>
+<coordinates>37.251310825295484,47.98597490486046 37.18382447891391,47.95839460002363 37.181122338264366,47.9616221686566 37.17876166042889,47.964968421999174 37.17675399724635,47.96841707932455 37.17510918923067,47.971951358497336 37.17383531647992,47.97555405735641 37.17293865801754,47.97920763719972 37.17242365978877,47.98289430797076 37.17229291149534,47.98659611473669 37.1725471324106,47.99029502504101 37.17318516627437,47.99397301670719 37.174203985323786,47.997612165667014 37.17559870347153,48.001194733385 37.251310825295484,47.98597490486046 </coordinates>
+ </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

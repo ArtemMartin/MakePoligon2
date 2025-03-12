@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <Placemark>
+<name>Gazimyr1</name>
+<description></description>
+      <Style>
+        <LineStyle>
+<color>D89D1B8C</color>
+ <width>10</width>
+ <strokeOpacity>0.99</strokeOpacity>
+        </LineStyle>
+        <PolyStyle>
+<color>D89D1B8C</color>
+<fill>1</fill>
+ <fillOpacity>0.9</fillOpacity>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <outerBoundaryIs>
+          <LinearRing>
+<coordinates>37.30330934391507,47.976870654919054 37.056623280515524,47.89833103197644 37.04904757862101,47.91007686871234 37.04270572071426,47.922148976286294 37.03762935244487,47.93448875634531 37.03384403569558,47.94703627040302 37.031369108118355,47.95973052828752 37.030217571667265,47.97250978247019 37.03039601099989,47.98531182689972 37.03190454249355,47.998074298928586 37.034736794490286,48.010734982887406 37.03887991923996,48.023232113837345 37.04431463685787,48.035504680012814 37.05101531145095,48.04749272245513 37.30330934391507,47.976870654919054 </coordinates>
+ </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
